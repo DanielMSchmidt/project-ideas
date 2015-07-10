@@ -13,3 +13,10 @@ An application which quizzes you exam questions and shows the answers after a te
 7. Win exam
 8. ???
 9. Profit
+
+## WageChecker
+A react-native app to monitor your monthly wage via tickspot. 
+
+- Maybe add a goal and see how much you have won it
+- Maybe (if possible) get the data from not submitted, but ticking timers
+- Add a cool graph of this year, vs last year etc on the amount of hours worked
