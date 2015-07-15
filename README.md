@@ -1,7 +1,7 @@
 # project-ideas
 Some project ideas I would like to do in my spare time
 
-## Quizzer ([first approach here](https://question-master.herokuapp.com/))
+## Quizzer ([first approach here](https://question-master.herokuapp.com/)) ([current approach here](https://github.com/DanielMSchmidt/quizzer))
 An application which quizzes you exam questions and shows the answers after a test. The optimal workflow would be
 
 1. As you prepare your learning materials in Latex (a summarization would be optimal) annotate them with sections, subsections etc that would be answers to questions. Notate that questions with ```#Q: What does the fox say?``` in the corresponding block (highest gets choosen)
