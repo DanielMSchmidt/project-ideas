@@ -21,7 +21,9 @@ A react-native app to monitor your monthly wage via tickspot.
 - Maybe (if possible) get the data from not submitted, but ticking timers
 - Add a cool graph of this year, vs last year etc on the amount of hours worked
 
-## Rain & Water Effect
+## [Rain & Water Effect](https://github.com/DanielMSchmidt/rn-rain-and-water-effect) 
+~ WIP ~
+
 Rebuild rain effects as easy to use react component
 
 - Effect from [Rain & Water Effect Experiments](http://tympanus.net/codrops/2015/11/04/rain-water-effect-experiments/)
