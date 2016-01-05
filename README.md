@@ -44,3 +44,12 @@ Opens the page in multiple iframes which have the same width as breakpoints in C
 
 - optional: height breakpoint support
 - optional: have the click & scroll events mirrored in all iframes so we have kinda browsersync behavior
+
+## [Hub](https://github.com/github/hub) for Stash
+
+Most important features: 
+
+- `git pull-request``
+- `git create`
+- `git browse`
+- `git am`
