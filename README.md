@@ -1,5 +1,5 @@
 # project-ideas
-Some project ideas I would like to do in my spare time
+Some project ideas I would like to do in my spare time, not ranked anyhow. Please let me know if you are working on a similar problem and if you need help with it.
 
 ## Quizzer ([first approach here](https://question-master.herokuapp.com/)) ([current approach here](https://github.com/DanielMSchmidt/quizzer))
 An application which quizzes you exam questions and shows the answers after a test. The optimal workflow would be
