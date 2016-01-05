@@ -36,3 +36,11 @@ A [webpack loader](https://webpack.github.io/docs/how-to-write-a-loader.html) wh
 - precache attribute, which adds item to toolbox.precache (for link and script elements)
 - meta keyword for default request method?
 - overwrites for request method in a tags (e.g. networkOnly for strictly uncachable pages)
+
+
+## Breakpoint Tester Plugin
+
+Opens the page in multiple iframes which have the same width as breakpoints in CSS
+
+- optional: height breakpoint support
+- optional: have the click & scroll events mirrored in all iframes so we have kinda browsersync behavior
