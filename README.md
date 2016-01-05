@@ -49,7 +49,7 @@ Opens the page in multiple iframes which have the same width as breakpoints in C
 
 Most important features: 
 
-- `git pull-request``
+- `git pull-request`
 - `git create`
 - `git browse`
 - `git am`
