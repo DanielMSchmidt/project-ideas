@@ -52,4 +52,4 @@ Most important features:
 - `git pull-request`
 - `git create`
 - `git browse`
-- `git am`
+- `git checkout`
