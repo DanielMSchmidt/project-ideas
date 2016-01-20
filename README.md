@@ -68,8 +68,12 @@ Most important features:
 
 Write about increased clarity of es6 due to deconstructing, easy moduling, etc.
 
-### React-Native Module
+### React-Native Module Generator
 
 Present my react-native module generator and talk about the reason to write it and the roadmap.
+
+### React-Native iOS View Lib
+
+How to use a iOS lib with a view component as rn module
 
 
