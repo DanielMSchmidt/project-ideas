@@ -76,4 +76,8 @@ Present my react-native module generator and talk about the reason to write it a
 
 How to use a iOS lib with a view component as rn module
 
+### Electron vs. RN Desktop 
+
+Compare both in terms of usability, stability, speed of development, etc
+
 
