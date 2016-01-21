@@ -80,4 +80,6 @@ How to use a iOS lib with a view component as rn module
 
 Compare both in terms of usability, stability, speed of development, etc
 
+### Best News Resource
 
+Podcasts, Blogs, etc, all RN / JS related
