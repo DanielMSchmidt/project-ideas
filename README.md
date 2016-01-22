@@ -83,3 +83,7 @@ Compare both in terms of usability, stability, speed of development, etc
 ### Best News Resource
 
 Podcasts, Blogs, etc, all RN / JS related
+
+### React Native rendering performance
+
+When to use which Technique (idleTime, animationFrame, interactionHandle)
