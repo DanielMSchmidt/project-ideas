@@ -21,6 +21,10 @@ An application which quizzes you exam questions and shows the answers after a te
 8. ???
 9. Profit
 
+#### Implementation Idea
+- Use RxJS module for the parsing / question / answer part of implementation and provide it as (tested) node module
+- Build it one time with [react-native-desktop](https://github.com/ptmt/react-native-desktop) and one time with [electorn](https://github.com/atom/electron) in order to have a good example for a blog post later on
+
 ### WageChecker
 A react-native app to monitor your monthly wage via tickspot. 
 
