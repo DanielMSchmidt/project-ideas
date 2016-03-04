@@ -17,6 +17,62 @@ Most important features:
 - `git browse`
 - `git checkout`
 
+### Feature Center
+
+Write a Client side module which gets initialized with
+
+- a server URL
+- a unique ID for this client (on native e.g. UUID)
+
+and then have an API like this
+
+```javascript
+import featureCenter from 'feature-center';
+
+const features = new featureCenter({
+  serverUrl: 'http://myAwesomeServer.cool',
+  uniqueDeviceId: getUniqueId(),
+  cacheTime: 24 * 60 * 60 * 1000, // optional (in ms)
+  prefetch: ['myAwesomeFeature'] // 
+});
+
+// myAwesomeFeature may not have a space, should check this
+features.mayIDoThis('myAwesomeFeature').then(function() {
+  // insert awesome code here
+}
+```
+
+The server should have a `api?feature=<featureName>` endpoint which returns `true` or `false`. The API should cache this for a period of time, which may be defined in the constructor. Another endpoint would be a post to `api` with a query object which looks like this: 
+
+```json
+{
+  "prefetch": ["myAwesomeFeatureOne", "myAwesomeFeatureTwo"]
+}
+```
+
+and returns
+
+```json
+{
+  "myAwesomeFeatureOne": true,
+  "myAwesomeFeatureTwo": false,
+}
+```
+
+It should also provide a dashboard in which a new String may be added. There should be a default set in which each dashboard may be set to `true` or `false` and a search field for a unique device ID in which one may be selected and may select that individually.
+
+Additionally a decorator for react components would be cool: 
+
+```javascript
+@feature('myAwesomeComponent')
+class HelloMessage extends React.Component {
+  render() {
+    return <div>Hello {this.props.name}</div>;
+  }
+}
+```
+
+So that he component is only rendered if the feature is activated.
 
 ## Blog Posts
 
