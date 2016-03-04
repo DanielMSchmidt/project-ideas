@@ -40,15 +40,6 @@ Rebuild rain effects as easy to use react component
 - Effect from [Rain & Water Effect Experiments](http://tympanus.net/codrops/2015/11/04/rain-water-effect-experiments/)
 - WebGL bindings from [gl-react-native](https://github.com/ProjectSeptemberInc/gl-react-native)
 
-
-### ServiceWorker Loader
-A [webpack loader](https://webpack.github.io/docs/how-to-write-a-loader.html) which adds a section into a script (or generates a new one to include) with service worker functionality using the [sw-toolbox](https://github.com/GoogleChrome/sw-toolbox). E.g.:
-
-- precache attribute, which adds item to toolbox.precache (for link and script elements)
-- meta keyword for default request method?
-- overwrites for request method in a tags (e.g. networkOnly for strictly uncachable pages)
-
-
 ### Breakpoint Tester Plugin
 
 Opens the page in multiple iframes which have the same width as breakpoints in CSS
