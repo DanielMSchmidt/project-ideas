@@ -74,6 +74,11 @@ class HelloMessage extends React.Component {
 
 So that he component is only rendered if the feature is activated.
 
+
+### RemindMe Github Bot
+
+A github Bot, which lets you write a message like this: `@remindMeBot user/project#issuenr` and answers `I will remind you when user/project#issuenr is closed`. It should wait for `user/project#issuenr` to be closed and then comment the current issue again.
+
 ## Blog Posts
 
 ### I <3 ES6
