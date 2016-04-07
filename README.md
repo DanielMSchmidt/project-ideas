@@ -105,6 +105,6 @@ Podcasts, Blogs, etc, all RN / JS related
 
 When to use which technique (idleTime, animationFrame, interactionHandle)
 
-## Build a TSA App even faster
+### Build a TSA App even faster
 
 Build an App that randomly points left or right on click in under 10 minutes. [Here is the 10 minute approach](https://www.youtube.com/watch?v=6GEpqmPL3bg)
