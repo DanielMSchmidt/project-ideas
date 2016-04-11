@@ -72,7 +72,12 @@ class HelloMessage extends React.Component {
 }
 ```
 
-So that he component is only rendered if the feature is activated.
+So that he component is only rendered if the feature is 
+
+
+### Competitive Dancing Rating
+
+Build the DTV voting system as a react native app
 
 
 ### RemindMe Github Bot
