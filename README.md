@@ -89,9 +89,9 @@ A github Bot, which lets you write a message like this: `@remindMeBot user/proje
 
 ## Blog Posts
 
-### I <3 ES6
+### I <3 ES6 (Advanced stuff)
 
-Write about increased clarity of es6 due to deconstructing, easy moduling, etc.
+Write about easy moduling, generators and proxies
 
 ### React-Native Module Generator
 
