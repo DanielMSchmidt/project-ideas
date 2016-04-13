@@ -2,8 +2,8 @@
 
 This are all ideas of programming related stuff, that I might do in my free time. Just a reminder for me, but if you need a project you are free to implement something from his list. It currently includes
 
-- Projects
-- Blog Posts
+- [Projects](https://github.com/DanielMSchmidt/project-ideas/blob/master/README.md#projects)
+- [Blog Posts](https://github.com/DanielMSchmidt/project-ideas/blob/master/README.md#blog-posts)
 
 ## Projects
 Some project ideas I would like to do in my spare time, not ranked anyhow. Please let me know if you are working on a similar problem and if you need help with it.
@@ -83,6 +83,9 @@ Build the DTV voting system as a react native app
 ### RemindMe Github Bot
 
 A github Bot, which lets you write a message like this: `@remindMeBot user/project#issuenr` and answers `I will remind you when user/project#issuenr is closed`. It should wait for `user/project#issuenr` to be closed and then comment the current issue again.
+
+
+
 
 ## Blog Posts
 
