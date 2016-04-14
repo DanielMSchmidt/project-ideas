@@ -89,9 +89,6 @@ A github Bot, which lets you write a message like this: `@remindMeBot user/proje
 
 ## Blog Posts
 
-### React-Dom + Server Side Rendering: How to deal with auto fill ins
-Find a solution and post it (most likely set state on component will mount, [for chrome at least](http://stackoverflow.com/questions/11708092/detecting-browser-autofill))
-
 ### I <3 ES6 (Advanced stuff)
 
 Write about easy moduling, generators and proxies
@@ -119,3 +116,14 @@ When to use which technique (idleTime, animationFrame, interactionHandle)
 ### Build a TSA App even faster
 
 Build an App that randomly points left or right on click in under 10 minutes. [Here is the 10 minute approach](https://www.youtube.com/watch?v=6GEpqmPL3bg)
+
+## Archive
+
+Blog posts or projects that are actually done.
+
+### [I <3 ES6 (simple stuff)](https://medium.com/@dschmidt1992/the-benefit-of-transpiling-es2015-e84ad0fde0c1#.q3qp5j4ui)
+
+Write about deconstructing and arrow functions (how they increase verbosity)
+
+### React-Dom + Server Side Rendering: How to deal with auto fill ins
+Find a solution and post it (most likely set state on component will mount, [for chrome at least](http://stackoverflow.com/questions/11708092/detecting-browser-autofill))
