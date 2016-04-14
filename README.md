@@ -89,6 +89,9 @@ A github Bot, which lets you write a message like this: `@remindMeBot user/proje
 
 ## Blog Posts
 
+### React-Dom + Server Side Rendering: How to deal with auto fill ins
+Find a solution and post it (most likely set state on component will mount, [for chrome at least](http://stackoverflow.com/questions/11708092/detecting-browser-autofill))
+
 ### I <3 ES6 (Advanced stuff)
 
 Write about easy moduling, generators and proxies
