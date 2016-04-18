@@ -97,6 +97,10 @@ Write about easy moduling, generators and proxies
 
 Present my react-native module generator and talk about the reason to write it and the roadmap.
 
+### Show how to use redial with redux
+
+Maybe on RN, just because fun. [Redial](https://github.com/markdalgleish/redial)
+
 ### First example with [React TVML](https://github.com/ramitos/react-tvml)
 
 Build a small apple tv app, will sure be fun
