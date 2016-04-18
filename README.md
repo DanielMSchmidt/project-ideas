@@ -89,6 +89,15 @@ A github Bot, which lets you write a message like this: `@remindMeBot user/proje
 
 ## Blog Posts
 
+### How to pitch React Native
+
+Series about how to pitch React Native to
+
+- [X] [Developers](https://medium.com/@dschmidt1992/how-to-pitch-react-native-to-developers-dcf092cb4614#.s2xiz7nvz)
+- [ ] Team Leads
+- [ ] Designers
+- [ ] Top Level Executives
+
 ### I <3 ES6 (Advanced stuff)
 
 Write about easy moduling, generators and proxies
