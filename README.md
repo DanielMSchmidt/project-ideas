@@ -133,5 +133,5 @@ Blog posts or projects that are actually done.
 
 Write about deconstructing and arrow functions (how they increase verbosity)
 
-### React-Dom + Server Side Rendering: How to deal with auto fill ins
+### [React-Dom + Server Side Rendering: How to deal with auto fill ins](https://medium.com/@dschmidt1992/auto-fill-with-redux-forms-9b51ad8ef962#.9s5ptjx9i)
 Find a solution and post it (most likely set state on component will mount, [for chrome at least](http://stackoverflow.com/questions/11708092/detecting-browser-autofill))
