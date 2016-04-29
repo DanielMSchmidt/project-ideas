@@ -100,9 +100,13 @@ Is listed as Product Pain, may be implemented by measuring after re-render and s
 Series about how to pitch React Native to
 
 - [X] [Developers](https://medium.com/@dschmidt1992/how-to-pitch-react-native-to-developers-dcf092cb4614#.s2xiz7nvz)
-- [ ] Team Leads
+- [X] Team Leads
 - [ ] Designers
 - [ ] Top Level Executives
+
+### Reindex + React Native + Relay
+
+Introduction => boilerplate code
 
 ### I <3 ES6 (Advanced stuff)
 
