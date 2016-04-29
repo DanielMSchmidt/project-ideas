@@ -84,10 +84,14 @@ Build the DTV voting system as a react native app
 
 A github Bot, which lets you write a message like this: `@remindMeBot user/project#issuenr` and answers `I will remind you when user/project#issuenr is closed`. It should wait for `user/project#issuenr` to be closed and then comment the current issue again.
 
-
 ### Choreography Builder
 
 Relay / Graphql App, that lets you build you choreography and add notes to the entries.
+
+### React Native min-height / max-height
+
+Is listed as Product Pain, may be implemented by measuring after re-render and setting the height accordingly. Could be expensive, so choose as seldom as possible (as disclaimer)
+
 
 ## Blog Posts
 
