@@ -136,21 +136,21 @@ How to use a iOS lib with a view component as rn module
 
 Compare both in terms of usability, stability, speed of development, etc
 
-### Best News Resource
-
-Podcasts, Blogs, etc, all RN / JS related
-
 ### React Native rendering performance
 
 When to use which technique (idleTime, animationFrame, interactionHandle)
 
-### Build a TSA App even faster
+### Build a demo application with Shoutem UI toolkit
 
-Build an App that randomly points left or right on click in under 10 minutes. [Here is the 10 minute approach](https://www.youtube.com/watch?v=6GEpqmPL3bg)
+Maybe something E-Commerce like or a list of podcast or sth similar. [Shoutem](https://shoutem.github.io/ui/)
 
 ## Archive
 
 Blog posts or projects that are actually done.
+
+### Best News Resource
+
+Podcasts, Blogs, etc, all RN / JS related
 
 ### [I <3 ES6 (simple stuff)](https://medium.com/@dschmidt1992/the-benefit-of-transpiling-es2015-e84ad0fde0c1#.q3qp5j4ui)
 
