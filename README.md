@@ -139,6 +139,10 @@ When to use which technique (idleTime, animationFrame, interactionHandle)
 
 Maybe something E-Commerce like or a list of podcast or sth similar. [Shoutem](https://shoutem.github.io/ui/)
 
+### Try out React Game Kit
+
+Maybe with a AirHockey game or sth similar [React Game Kit](https://github.com/FormidableLabs/react-game-kit)
+
 ## Archive
 
 Blog posts or projects that are actually done.
