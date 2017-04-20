@@ -12,11 +12,6 @@ Some project ideas I would like to do in my spare time, not ranked anyhow. Pleas
 
 Build the DTV voting system as a react native app
 
-
-### RemindMe Github Bot
-
-A github Bot, which lets you write a message like this: `@remindMeBot user/project#issuenr` and answers `I will remind you when user/project#issuenr is closed`. It should wait for `user/project#issuenr` to be closed and then comment the current issue again.
-
 ### Choreography Builder
 
 Relay / Graphql App, that lets you build you choreography and add notes to the entries.
