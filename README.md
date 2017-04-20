@@ -8,73 +8,6 @@ This are all ideas of programming related stuff, that I might do in my free time
 ## Projects
 Some project ideas I would like to do in my spare time, not ranked anyhow. Please let me know if you are working on a similar problem and if you need help with it.
 
-### [Hub](https://github.com/github/hub) for Stash
-
-Most important features: 
-
-- `git pull-request`
-- `git create`
-- `git browse`
-- `git checkout`
-
-### Feature Center
-
-Write a Client side module which gets initialized with
-
-- a server URL
-- a unique ID for this client (on native e.g. UUID)
-
-and then have an API like this
-
-```javascript
-import featureCenter from 'feature-center';
-
-const features = new featureCenter({
-  serverUrl: 'http://myAwesomeServer.cool',
-  uniqueDeviceId: getUniqueId(),
-  cacheTime: 24 * 60 * 60 * 1000, // optional (in ms)
-  prefetch: ['myAwesomeFeature'] // 
-});
-
-// myAwesomeFeature may not have a space, should check this
-features.mayIDoThis('myAwesomeFeature').then(function() {
-  // insert awesome code here
-}
-```
-
-The server should have a `api?feature=<featureName>` endpoint which returns `true` or `false`. The API should cache this for a period of time, which may be defined in the constructor. Another endpoint would be a post to `api` with a query object which looks like this: 
-
-```json
-{
-  "prefetch": ["myAwesomeFeatureOne", "myAwesomeFeatureTwo"]
-}
-```
-
-and returns
-
-```json
-{
-  "myAwesomeFeatureOne": true,
-  "myAwesomeFeatureTwo": false,
-}
-```
-
-It should also provide a dashboard in which a new String may be added. There should be a default set in which each dashboard may be set to `true` or `false` and a search field for a unique device ID in which one may be selected and may select that individually.
-
-Additionally a decorator for react components would be cool: 
-
-```javascript
-@feature('myAwesomeComponent')
-class HelloMessage extends React.Component {
-  render() {
-    return <div>Hello {this.props.name}</div>;
-  }
-}
-```
-
-So that he component is only rendered if the feature is 
-
-
 ### Competitive Dancing Rating
 
 Build the DTV voting system as a react native app
@@ -87,10 +20,6 @@ A github Bot, which lets you write a message like this: `@remindMeBot user/proje
 ### Choreography Builder
 
 Relay / Graphql App, that lets you build you choreography and add notes to the entries.
-
-### React Native min-height / max-height
-
-Is listed as Product Pain, may be implemented by measuring after re-render and setting the height accordingly. Could be expensive, so choose as seldom as possible (as disclaimer)
 
 ## Blog Posts
 
@@ -107,19 +36,11 @@ Series about how to pitch React Native to
 
 Introduction => boilerplate code
 
-### I <3 ES6 (Advanced stuff)
-
-Write about easy moduling, generators and proxies
-
-### React-Native Module Generator
-
-Present my react-native module generator and talk about the reason to write it and the roadmap.
-
 ### Show how to use redial with redux
 
 Maybe on RN, just because fun. [Redial](https://github.com/markdalgleish/redial)
 
-### First example with [React TVML](https://github.com/ramitos/react-tvml)
+### React Native Apple TV
 
 Build a small apple tv app, will sure be fun
 
@@ -134,10 +55,6 @@ Compare both in terms of usability, stability, speed of development, etc
 ### React Native rendering performance
 
 When to use which technique (idleTime, animationFrame, interactionHandle)
-
-### Build a demo application with Shoutem UI toolkit
-
-Maybe something E-Commerce like or a list of podcast or sth similar. [Shoutem](https://shoutem.github.io/ui/)
 
 ### Try out React Game Kit
 
